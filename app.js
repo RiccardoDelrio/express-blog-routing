@@ -8,3 +8,6 @@ app.listen(port, () => {
 
 })
 app.use(express.static('public'));
+
+const postRouter = require('./routes/posts');
+app.use('/api/posts', postRouter)
