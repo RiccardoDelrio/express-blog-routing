@@ -1,6 +1,6 @@
-const express = require('express');
-const app = express();
-const port = 3000
+const express = require('express'); //importo express
+const app = express(); //inizializzo express 
+const port = 3000 //porta del server
 
 //Server in ascolto
 app.listen(port, () => {

@@ -1,8 +1,8 @@
-const e = require('express');
+
 const express = require('express');
 const router = express.Router();
 const post = require('../posts')
-console.log(post[1])
+console.log("partiti")
 router.get('/', (req, res) => {
     res.json(post)
 
